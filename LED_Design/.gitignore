@@ -1,0 +1,5 @@
+# KiCad temporary files
+*.lck
+*.bak
+*.kicad_prl
+.history/

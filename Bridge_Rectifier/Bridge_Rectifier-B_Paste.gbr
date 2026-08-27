@@ -1,0 +1,67 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.5*%
+%TF.CreationDate,2026-08-28T01:33:28+05:30*%
+%TF.ProjectId,Bridge_Rectifier,42726964-6765-45f5-9265-637469666965,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.5) date 2026-08-28 01:33:28*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+G04 Aperture macros list end*
+%ADD10RoundRect,0.243750X-0.243750X-0.456250X0.243750X-0.456250X0.243750X0.456250X-0.243750X0.456250X0*%
+%ADD11RoundRect,0.237500X-0.250000X-0.237500X0.250000X-0.237500X0.250000X0.237500X-0.250000X0.237500X0*%
+%ADD12RoundRect,0.243750X0.243750X0.456250X-0.243750X0.456250X-0.243750X-0.456250X0.243750X-0.456250X0*%
+%ADD13R,2.350000X0.850000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,D1*%
+X76625000Y-74500000D03*
+X78500000Y-74500000D03*
+%TD*%
+D11*
+%TO.C,R1*%
+X83500000Y-78500000D03*
+X85325000Y-78500000D03*
+%TD*%
+D10*
+%TO.C,D2*%
+X71642500Y-89500000D03*
+X73517500Y-89500000D03*
+%TD*%
+D12*
+%TO.C,D3*%
+X73437500Y-74562500D03*
+X71562500Y-74562500D03*
+%TD*%
+D13*
+%TO.C,J2*%
+X87540000Y-82270000D03*
+X85190000Y-84270000D03*
+%TD*%
+D12*
+%TO.C,D4*%
+X78000000Y-89500000D03*
+X76125000Y-89500000D03*
+%TD*%
+M02*

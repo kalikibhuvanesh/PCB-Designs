@@ -735,6 +735,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Zener"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1350,10 +1516,22 @@
 		(uuid "1f6ed4d2-f159-447b-bf59-f90ae1664fcb")
 	)
 	(junction
+		(at 148.59 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69ec45a0-3dfb-467c-8290-392525a228c8")
+	)
+	(junction
 		(at 104.14 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e5ec7b9-6023-4ff1-983c-c5c5b26ab3e4")
+	)
+	(junction
+		(at 148.59 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95c244c6-0e5b-4952-a8e4-852e491a6f9f")
 	)
 	(junction
 		(at 134.62 76.2)
@@ -1433,6 +1611,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 68.58) (xy 153.67 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ddf977c-27d1-4b12-b7b2-b58bf1d15de2")
+	)
+	(wire
+		(pts
 			(xy 115.57 76.2) (xy 115.57 77.47)
 		)
 		(stroke
@@ -1440,16 +1628,6 @@
 			(type default)
 		)
 		(uuid "31420b2e-8f98-4003-89f2-613e87fb4221")
-	)
-	(wire
-		(pts
-			(xy 148.59 73.66) (xy 148.59 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32d1d779-49e3-47c6-9365-ce591fec738d")
 	)
 	(wire
 		(pts
@@ -1463,13 +1641,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 73.66) (xy 151.13 73.66)
+			(xy 153.67 71.12) (xy 157.48 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35f29b68-67bb-4637-9670-2b7c0bf6b133")
+		(uuid "34ff134c-1d4b-4b55-bef2-792d69cd030f")
 	)
 	(wire
 		(pts
@@ -1490,16 +1668,6 @@
 			(type default)
 		)
 		(uuid "45823267-2996-4e41-9ce3-85855a02e155")
-	)
-	(wire
-		(pts
-			(xy 148.59 71.12) (xy 151.13 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "462a560f-72f8-464d-9c6f-137949a27a30")
 	)
 	(wire
 		(pts
@@ -1633,6 +1801,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 73.66) (xy 153.67 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc7a9b6-6b52-4bd3-bbb0-ff220e414073")
+	)
+	(wire
+		(pts
 			(xy 134.62 76.2) (xy 142.24 76.2)
 		)
 		(stroke
@@ -1640,16 +1818,6 @@
 			(type default)
 		)
 		(uuid "aa9d5686-64ac-43b1-85cd-caad0430c426")
-	)
-	(wire
-		(pts
-			(xy 148.59 68.58) (xy 148.59 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6922eca-2c18-470a-8d1a-d8ccb54ed956")
 	)
 	(wire
 		(pts
@@ -1663,6 +1831,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 68.58) (xy 153.67 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b843089d-3c86-4392-9175-eb4fd5dd29e5")
+	)
+	(wire
+		(pts
 			(xy 104.14 81.28) (xy 104.14 86.36)
 		)
 		(stroke
@@ -1670,6 +1848,26 @@
 			(type default)
 		)
 		(uuid "cd397664-a374-4003-bcfc-59a8d1ce81e4")
+	)
+	(wire
+		(pts
+			(xy 148.59 76.2) (xy 153.67 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d181d9a1-c3c8-4c56-a962-3338dae5d3c5")
+	)
+	(wire
+		(pts
+			(xy 153.67 73.66) (xy 157.48 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da474357-c791-4a41-aa31-f4ca8317666b")
 	)
 	(wire
 		(pts
@@ -1967,7 +2165,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 156.21 73.66 180)
+		(at 162.56 73.66 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1977,7 +2175,7 @@
 		(dnp no)
 		(uuid "4a81cbb0-fa43-4ec6-883f-31207c9e713c")
 		(property "Reference" "J2"
-			(at 157.48 71.1199 0)
+			(at 163.83 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1988,7 +2186,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 157.48 73.6599 0)
+			(at 163.83 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1999,7 +2197,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
-			(at 156.21 73.66 0)
+			(at 162.56 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2010,7 +2208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 73.66 0)
+			(at 162.56 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2021,7 +2219,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 156.21 73.66 0)
+			(at 162.56 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2218,6 +2416,88 @@
 			(project "Bridge_Rectifier_with_filter"
 				(path "/51f75efd-7f51-4969-bd5f-41b987d4fc89"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 148.59 72.39 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "69454b88-ebb0-4150-851a-4309f7cd67ee")
+		(property "Reference" "D5"
+			(at 145.288 72.898 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 151.13 73.6599 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 148.59 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 148.59 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b95b110c-cf00-428b-8eb7-cdadf391d1db")
+		)
+		(pin "1"
+			(uuid "53d21351-70ce-48e7-9ec5-77864ebcad47")
+		)
+		(instances
+			(project "Bridge_Rectifier_with_filter"
+				(path "/51f75efd-7f51-4969-bd5f-41b987d4fc89"
+					(reference "D5")
 					(unit 1)
 				)
 			)

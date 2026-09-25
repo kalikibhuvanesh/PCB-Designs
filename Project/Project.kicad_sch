@@ -1708,7 +1708,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:JQC-3FF-005-1Z"
+		(symbol "Relay_SPDT_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1725,7 +1725,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "JQC-3FF-005-1Z"
+			(property "Value" "Relay_SPDT"
 				(at 11.43 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1736,7 +1736,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Relay_THT:Relay_SPDT_Hongfa_JQC-3FF_0XX-1Z"
+			(property "Footprint" ""
 				(at 11.43 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1748,7 +1748,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.digikey.com/htmldatasheets/production/2071105/0/0/1/JQC-3FF.pdf"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1759,7 +1759,7 @@
 					)
 				)
 			)
-			(property "Description" "Subminiature High Power SPDT Relay, 5V Coil nom. 0.36W, 10A switching current, max 10A@277VAC/28VDC"
+			(property "Description" "Relay SPDT, monostable, EN50005"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1770,7 +1770,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Hongmei"
+			(property "ki_keywords" "1P2T 1-Form-C single pole throw"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1781,7 +1781,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Relay*SPDT*Hongfa*JQC*3FF*0XX*1Z*"
+			(property "ki_fp_filters" "Relay?SPDT*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1792,7 +1792,7 @@
 					)
 				)
 			)
-			(symbol "JQC-3FF-005-1Z_0_0"
+			(symbol "Relay_SPDT_1_0_0"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
@@ -1806,7 +1806,7 @@
 					)
 				)
 			)
-			(symbol "JQC-3FF-005-1Z_0_1"
+			(symbol "Relay_SPDT_1_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -1962,7 +1962,7 @@
 					)
 				)
 			)
-			(symbol "JQC-3FF-005-1Z_1_1"
+			(symbol "Relay_SPDT_1_1_1"
 				(pin passive line
 					(at 5.08 -7.62 90)
 					(length 2.54)
@@ -1973,7 +1973,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1991,43 +1991,7 @@
 							)
 						)
 					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2045,7 +2009,43 @@
 							)
 						)
 					)
-					(number "A2"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3633,6 +3633,99 @@
 		(uuid "fae142b0-f172-4e4e-bbe1-8503756a6e00")
 	)
 	(symbol
+		(lib_name "Relay_SPDT_1")
+		(lib_id "Relay:Relay_SPDT")
+		(at 166.37 120.65 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "06544c63-4a94-4f00-8be6-9906cacdb200")
+		(property "Reference" "K1"
+			(at 154.94 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Relay_SPDT"
+			(at 151.384 120.904 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
+			(at 177.8 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Relay SPDT, monostable, EN50005"
+			(at 166.37 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48db1be8-9d10-4eda-84d0-29ca1e954dda")
+		)
+		(pin "2"
+			(uuid "fae8a019-d48d-4847-83a1-d2606d6d09da")
+		)
+		(pin "5"
+			(uuid "74197986-b18f-4828-ad61-0314387fa37c")
+		)
+		(pin "4"
+			(uuid "3af86740-4f1f-4c4b-a681-ed9c21c156b3")
+		)
+		(pin "3"
+			(uuid "aefda1b6-0c62-4ab5-b9df-b7601bd8c569")
+		)
+		(instances
+			(project "Project"
+				(path "/e80bdc49-7256-4c6f-8a6c-54ea24fd7d8b"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 118.11 104.14 0)
 		(unit 1)
@@ -4222,7 +4315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
+		(property "Footprint" "Diode_SMD:D_MicroMELF"
 			(at 151.13 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4518,7 +4611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MELF"
+		(property "Footprint" "Diode_SMD:D_MicroMELF"
 			(at 57.785 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4567,98 +4660,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:JQC-3FF-005-1Z")
-		(at 166.37 120.65 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "98f2ef88-31f1-400a-99f5-d2b118bb1d37")
-		(property "Reference" "K1"
-			(at 154.94 119.3799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "JQC-3FF-005-1Z"
-			(at 169.418 112.014 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
-			(at 177.8 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/htmldatasheets/production/2071105/0/0/1/JQC-3FF.pdf"
-			(at 166.37 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Subminiature High Power SPDT Relay, 5V Coil nom. 0.36W, 10A switching current, max 10A@277VAC/28VDC"
-			(at 166.37 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "12"
-			(uuid "de991526-5050-4fc8-a46d-e8b72cdf82da")
-		)
-		(pin "A2"
-			(uuid "13d147ee-f049-4b30-b6e1-58735dc4199a")
-		)
-		(pin "14"
-			(uuid "8e46fc4e-b349-47a4-9daf-83e279070f6e")
-		)
-		(pin "11"
-			(uuid "0dcfb75c-c6af-44fd-a6cf-ee4ee27757be")
-		)
-		(pin "A1"
-			(uuid "6178419e-a1f8-40a5-917f-86f07bf3f3eb")
-		)
-		(instances
-			(project "Project"
-				(path "/e80bdc49-7256-4c6f-8a6c-54ea24fd7d8b"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Filled")
 		(at 81.28 147.32 90)
 		(unit 1)
@@ -4692,7 +4693,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 81.28 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4783,7 +4784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
 			(at 118.11 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -5084,7 +5085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 144.78 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5176,7 +5177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 97.4852 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5256,7 +5257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
 			(at 57.15 135.89 0)
 			(hide yes)
 			(show_name no)

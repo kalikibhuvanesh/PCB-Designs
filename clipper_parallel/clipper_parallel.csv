@@ -1,0 +1,5 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Exclude from Simulation","Exclude from Position Files","Footprint","Datasheet"
+"D3","1","D","","","","","${EXCLUDE_FROM_POS_FILES}","Diode_SMD:D_2114_3652Metric_Pad1.85x3.75mm_HandSolder",""
+"J1,J5","2","Screw_Terminal_01x02","","","","","${EXCLUDE_FROM_POS_FILES}","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal",""
+"R3","1","R","","","","","${EXCLUDE_FROM_POS_FILES}","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",""
+"V1","1","1","","","","","${EXCLUDE_FROM_POS_FILES}","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left","https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"

@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "clipper_parallel.kicad_pro",
+    "filename": "lab_exam2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -614,12 +614,6 @@
         },
         {
           "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
@@ -686,17 +680,17 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "clipper_parallel.kicad_sch",
+        "filename": "lab_exam2.kicad_sch",
         "name": "Root",
-        "uuid": "49070458-4eab-4103-a32e-79ec1997f9b2"
+        "uuid": "ba861622-9689-4394-bc69-8ca739111c50"
       }
     ],
-    "used_designators": "#PWR1,D3,BT3,H9-12,R3,J1,J5-6,V1",
+    "used_designators": "R1-2,J1-2,D1-2",
     "variants": []
   },
   "sheets": [
     [
-      "49070458-4eab-4103-a32e-79ec1997f9b2",
+      "ba861622-9689-4394-bc69-8ca739111c50",
       "Root"
     ]
   ],

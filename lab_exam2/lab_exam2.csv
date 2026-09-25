@@ -1,0 +1,4 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Exclude from Simulation","Exclude from Position Files","Footprint","Datasheet"
+"D1,D2","2","D","","","","","${EXCLUDE_FROM_POS_FILES}","Diode_SMD:D_3220_8050Metric_Pad2.65x5.15mm_HandSolder",""
+"J1,J2","2","Conn_01x02_Pin","","","","","${EXCLUDE_FROM_POS_FILES}","Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical_SMD_Pin1Left",""
+"R1,R2","2","R","","","","","${EXCLUDE_FROM_POS_FILES}","Resistor_SMD:R_0402_1005Metric",""
